@@ -2,12 +2,8 @@
 // `ng build` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 
-import { basename } from "path";
-
 export const environment = {
-  production: false,
-  apiKey:"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",
-  baseURL: "https://api.github.com/"
+  production: false
 };
 
 /*
