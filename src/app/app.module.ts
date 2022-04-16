@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { UsersComponent } from './users/users.component';
 import { DateCountPipe } from './date-count.pipe';
 import { HttpClientModule } from '@angular/common/http';
+import { NavbarComponent } from './navbar/navbar.component';
 
 
 @NgModule({
@@ -13,6 +14,7 @@ import { HttpClientModule } from '@angular/common/http';
     AppComponent,
     UsersComponent,
     DateCountPipe,
+    NavbarComponent,
 
   ],
   imports: [
