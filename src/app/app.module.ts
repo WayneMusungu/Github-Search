@@ -7,6 +7,7 @@ import { UsersComponent } from './users/users.component';
 import { DateCountPipe } from './date-count.pipe';
 import { HttpClientModule } from '@angular/common/http';
 import { NavbarComponent } from './navbar/navbar.component';
+import { GitFormComponent } from './git-form/git-form.component';
 
 
 @NgModule({
@@ -15,6 +16,7 @@ import { NavbarComponent } from './navbar/navbar.component';
     UsersComponent,
     DateCountPipe,
     NavbarComponent,
+    GitFormComponent,
 
   ],
   imports: [
